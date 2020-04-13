@@ -17,16 +17,17 @@ module "jenkins" {
 
 ## Requirements
 
-| Name | Version |
-| ---- | ------- |
-| aws  | ~> 2.0  |
+| Name     | Version |
+| -------- | ------- |
+| aws      | ~> 2.0  |
+| template | ~> 2.1  |
 
 ## Providers
 
 | Name     | Version |
 | -------- | ------- |
 | aws      | ~> 2.0  |
-| template | n/a     |
+| template | ~> 2.1  |
 
 ## Inputs
 
