@@ -40,9 +40,9 @@ module "jenkins" {
 
 ## Outputs
 
-| Name                | Description |
-| ------------------- | ----------- |
-| next_steps          | n/a         |
-| public_ip           | n/a         |
-| ssh_connect_command | n/a         |
-| url                 | n/a         |
+| Name                | Description                                            |
+| ------------------- | ------------------------------------------------------ |
+| next_steps          | The next steps to configure your jenkins instance.     |
+| public_ip           | The public ip address of the jenkins instance.         |
+| ssh_connect_command | The command to connect to the jenkins server over ssh. |
+| url                 | The http endpoint to the jenkins server.               |
