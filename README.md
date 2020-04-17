@@ -1,6 +1,6 @@
 # terraform-aws-jenkins
 
-This is a terraform module to create
+This terraform module stands up a simple Jenkins Server running in docker on an EC2 instance.
 
 ## Example:
 
