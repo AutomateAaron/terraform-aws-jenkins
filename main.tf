@@ -41,6 +41,8 @@ resource "aws_instance" "jenkins" {
   tags = {
     Name = "${var.name_prefix}jenkins-server${var.name_suffix}"
   }
+
+  iam_instance_profile = var.iam_instance_profile
 }
 
 #

@@ -19,3 +19,9 @@ variable "jenkins_port" {
   type        = number
   default     = 8080
 }
+
+variable "iam_instance_profile" {
+  description = "The iam instance profile the instance should use"
+  type        = string
+  default     = null
+}
